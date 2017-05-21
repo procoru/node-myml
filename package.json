@@ -1,0 +1,23 @@
+{
+  "name": "myml",
+  "version": "1.0.0",
+  "description": "Machine Learning and Neural Networks for data analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/procoru/node-myml.git"
+  },
+  "keywords": [
+    "Machine",
+    "learning"
+  ],
+  "author": "Vyacheslav Shindin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/procoru/node-myml/issues"
+  },
+  "homepage": "https://github.com/procoru/node-myml#readme"
+}
