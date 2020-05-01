@@ -4,7 +4,9 @@
   "description": "Machine Learning and Neural Networks for data analysis",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,9 @@
     "node-summary": "^1.1.0",
     "request": "^2.81.0",
     "sanitize-html": "^1.14.1"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.316.1"
   }
 }
