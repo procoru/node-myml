@@ -26,6 +26,6 @@
     "node-read": "^0.1.7",
     "node-summary": "^1.1.0",
     "request": "^2.81.0",
-    "sanitize-html": "^1.14.1"
+    "sanitize-html": "^2.3.2"
   }
 }
