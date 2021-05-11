@@ -4,7 +4,9 @@
   "description": "Machine Learning and Neural Networks for data analysis",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,10 +24,14 @@
   "homepage": "https://github.com/procoru/node-myml#readme",
   "devDependencies": {
     "html-entities": "^1.2.1",
-    "image-resolver": "^0.5.4",
+    "image-resolver": "^0.6.1",
     "node-read": "^0.1.7",
     "node-summary": "^1.1.0",
     "request": "^2.81.0",
-    "sanitize-html": "^2.0.0"
+    "sanitize-html": "^2.3.2"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.332.1"
   }
 }
